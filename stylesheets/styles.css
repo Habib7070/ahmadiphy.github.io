@@ -274,3 +274,22 @@ footer {
     color:#444;
   }
 }
+#justify {
+    width: 100%;
+    background: #D33;
+}
+
+#justify p {
+    margin: 0 auto;
+    max-width: 70%;
+    list-style: disc outside none;
+    text-align: justify;
+    display: list-item;
+    background: #ccc;
+}
+
+#justify p:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
